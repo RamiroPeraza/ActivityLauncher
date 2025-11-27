@@ -29,7 +29,7 @@ jobs:
         KEYSTORE: keystore.jks
         KEYSTORE_PASSWORD: ${{ secrets.KEYSTOREPASSWORD }}
         KEY_ALIAS: de.szalkowski.activitylauncher.oss
-        KEY_PASSWORD: ${{ secrets.KEYPASSWORD }}
+        KEY_PASSWORD: ${{ secrets
     - name: Upload Release APK
       uses: actions/upload-artifact@v4
       with:
